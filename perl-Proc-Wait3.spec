@@ -9,7 +9,7 @@ Summary:	Proc::Wait3 - Perl extension for wait3 system call
 #Summary(pl.UTF-8):	
 Name:		perl-Proc-Wait3
 Version:	0.04
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Proc/%{pdir}-%{pnam}-%{version}.tar.gz
