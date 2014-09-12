@@ -100,6 +100,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Proc/*.pm
 %dir %{perl_vendorarch}/auto/Proc/Wait3
-%{perl_vendorarch}/auto/Proc/Wait3/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Proc/Wait3/*.so
 %{_mandir}/man3/*
