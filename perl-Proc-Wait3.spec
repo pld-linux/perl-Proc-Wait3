@@ -1,12 +1,11 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
+
 %define		pdir	Proc
 %define		pnam	Wait3
 %include	/usr/lib/rpm/macros.perl
 Summary:	Proc::Wait3 - Perl extension for wait3 system call
-#Summary(pl.UTF-8):	
 Name:		perl-Proc-Wait3
 Version:	0.04
 Release:	5
@@ -14,12 +13,9 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Proc/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d87ce5f3557eb86bfa5bafb9f2e028e3
-# generic URL, check or change before uncommenting
-#URL:		http://search.cpan.org/dist/Proc-Wait3/
+URL:		http://search.cpan.org/dist/Proc-Wait3/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-%endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
