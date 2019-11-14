@@ -7,12 +7,12 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Proc::Wait3 - Perl extension for wait3 system call
 Name:		perl-Proc-Wait3
-Version:	0.04
-Release:	11
+Version:	0.05
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Proc/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d87ce5f3557eb86bfa5bafb9f2e028e3
+# Source0-md5:	41e6db9547b3f2c858d1982f6c278a1b
 URL:		http://search.cpan.org/dist/Proc-Wait3/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
