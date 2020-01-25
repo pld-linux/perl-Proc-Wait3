@@ -4,7 +4,6 @@
 
 %define		pdir	Proc
 %define		pnam	Wait3
-%include	/usr/lib/rpm/macros.perl
 Summary:	Proc::Wait3 - Perl extension for wait3 system call
 Name:		perl-Proc-Wait3
 Version:	0.05
